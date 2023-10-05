@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="stylx.css" /> -->
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .carousel-container {
+      position: relative;
+      background-color: rgb(38, 219, 161);
+      height: 300px;
+      width: 70%;
+      margin: 50px auto;
+    }
+
+    .carousel-slide {
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 90%;
+      margin: 0 auto;
+      height: inherit;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .carousel-arrow {
+      position: absolute;
+      top: 50%;
+      font-size: 20px;
+      font-weight: 800;
+      color: rgb(3, 88, 61);
+      cursor: pointer;
+      background-color: black;
+    }
+
+    .prev {
+      left: -2px;
+      background-color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    .image-box img {
+      width: auto;
+      height: 350px;
+      border-radius: 10px;
+      box-shadow: 0 3px 5px black;
+    }
+
+    .next {
+      right: -2px;
+      background-color: white;
+      width: 10px;
+      border-radius: 50%;
+    }
+
+    .carousel-navigation {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .circle {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: #fff;
+      border: green 1px solid;
+      border-radius: 50%;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .circle.active {
+      background-color: green;
+    }
+  </style>
+  <body>
+    <div class="carousel-container">
+      <div class="carousel-arrow prev">
+        <div>&lt;</div>
+      </div>
+
+      <div class="carousel-slide">
+        <div class="image-box">
+          <img src="./scroll/image/a smiling woman.jpg" alt="Image 1" />
+        </div>
+
+        <div class="text-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam omnis
+            itaque laudantium error voluptatum cum distinctio laborum beatae
+            quam amet possimus minus cupiditate nesciunt ipsa voluptate numquam,
+            reiciendis libero soluta.
+          </p>
+          <p>
+            dolorum recusandae. Accusamus quisquam dolor cumque sunt dicta vero
+            neque commodi quod.
+          </p>
+        </div>
+      </div>
+      <!-- Repeat the above structure for each slide -->
+
+      <div class="carousel-navigation">
+        <div class="circle active"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <div class="carousel-arrow next">&gt;</div>
+    </div>
+  </body>
+</html>

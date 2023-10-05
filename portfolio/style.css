@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@400;500&family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(10, 23, 60);
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+.section {
+  max-width: 95%;
+  height: 500px;
+  /* background-color: black; */
+  margin-left: auto;
+  display: flex;
+  align-items: end;
+  /* justify-content: space-between; */
+  gap: 10rem;
+  position: relative;
+}
+h1 {
+  font-style: italic;
+  padding: 1rem;
+  font-weight: 900;
+  width: 450px;
+  margin: 1rem 2rem 0 auto;
+  border: 1px solid white;
+  background-color: rgb(244, 11, 147);
+  text-align: center;
+  /* border-radius: 25% 50% 20% 0; */
+  color: black;
+  font-weight: 900;
+  transform: skew(-20deg);
+}
+.container-b h2 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  font-size: 3rem;
+  font-style: italic;
+}
+.container-b p {
+  margin-top: 1rem;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+.container-b button {
+  border: 1px solid white;
+  background-color: rgb(244, 11, 147);
+  color: black;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 130px;
+  border-radius: 50px;
+}
+img {
+  width: 300px;
+  height: 300px;
+  max-width: 500px;
+  border-radius: 50%;
+  border: 4px dotted white;
+  position: absolute;
+  top: 9rem;
+  bottom: 4px;
+}
+.image button {
+  border: 1px solid white;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  width: 160px;
+  border-radius: 50px;
+  margin-left: -20px;
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-around;
+  gap: 7rem;
+  margin-bottom: 3.5rem;
+}
+.social .fa-brands {
+  margin-right: -230px;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hello {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 0.5rem;
+  width: 180px;
+  border-radius: 3rem;
+  background: #eb8921;
+  color: #fff;
+  margin-top: 0.5rem;
+  border: none;
+}
+#user {
+  margin: 0.5rem;
+  height: 2rem;
+}
